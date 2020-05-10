@@ -1131,43 +1131,91 @@
         </link>
       </model>
       <model name='arTAG_0'>
-        <pose frame=''>2.26157 -2.18453 0.25 0 -0 2e-06</pose>
+        <pose frame=''>4.66087 -1.58277 0.199991 -3e-06 4.4e-05 0.000181</pose>
         <scale>1 1 1</scale>
         <link name='box'>
-          <pose frame=''>2.26157 -2.18453 0.25 0 -0 2e-06</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
+          <pose frame=''>4.66087 -1.58277 0.199991 -3e-06 4.4e-05 0.000181</pose>
+          <velocity>0.000867 4.4e-05 -0.000854 -0.000291 0.00435 -6.8e-05</velocity>
+          <acceleration>0.086665 0.004441 -1.08552 -0.029341 0.434586 -0.006781</acceleration>
+          <wrench>0.086665 0.004441 -1.08552 0 -0 0</wrench>
+        </link>
+        <link name='left_cover'>
+          <pose frame=''>4.66083 -1.37777 0.200008 -2e-06 4.3e-05 0.000181</pose>
+          <velocity>0.000846 4e-05 0.000747 -0.000115 0.004231 -8.7e-05</velocity>
+          <acceleration>0.085013 0.004241 -0.925936 -0.01263 0.425098 -0.008512</acceleration>
+          <wrench>0.085013 0.004241 -0.925936 0 -0 0</wrench>
+        </link>
+        <link name='right_cover'>
+          <pose frame=''>4.66091 -1.78777 0.200002 -1e-06 4.5e-05 0.000181</pose>
+          <velocity>0.000905 1.1e-05 0.000178 1.1e-05 0.004469 -8.8e-05</velocity>
+          <acceleration>0.090729 0.001389 -0.982496 -0.000537 0.448009 -0.008655</acceleration>
+          <wrench>0.090729 0.001389 -0.982496 0 -0 0</wrench>
         </link>
       </model>
       <model name='arTAG_1'>
-        <pose frame=''>2.6753 1.32861 0.25 0 -0 1e-06</pose>
+        <pose frame=''>4.89429 3.05409 0.200019 3e-06 9.2e-05 0.00012</pose>
         <scale>1 1 1</scale>
         <link name='box'>
-          <pose frame=''>2.6753 1.32861 0.25 0 -0 1e-06</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
+          <pose frame=''>4.89429 3.05409 0.200019 3e-06 9.2e-05 0.00012</pose>
+          <velocity>-0.000314 -0.001893 0.002256 0.009307 -0.001596 0.000149</velocity>
+          <acceleration>-0.411446 0.058228 0.83536 2.82079 -1.0963 -3.14089</acceleration>
+          <wrench>-0.411446 0.058228 0.83536 0 -0 0</wrench>
+        </link>
+        <link name='left_cover'>
+          <pose frame=''>4.89426 3.25908 0.200019 2e-06 9.4e-05 0.000121</pose>
+          <velocity>-0.000309 -0.001883 0.003675 0.009274 -0.001544 0.000141</velocity>
+          <acceleration>-0.414931 0.036549 0.731258 2.81521 -1.10513 -3.13825</acceleration>
+          <wrench>-0.414931 0.036549 0.731258 0 -0 0</wrench>
+        </link>
+        <link name='right_cover'>
+          <pose frame=''>4.89432 2.84909 0.200019 4e-06 9.4e-05 0.000121</pose>
+          <velocity>-0.000314 -0.001889 -3e-06 0.009252 -0.001569 0.000194</velocity>
+          <acceleration>-0.413559 0.055578 0.875616 2.81822 -1.10348 -3.1356</acceleration>
+          <wrench>-0.413559 0.055578 0.875616 0 -0 0</wrench>
         </link>
       </model>
       <model name='arTAG_2'>
-        <pose frame=''>-1.82385 1.51023 0.25 0 -0 1e-06</pose>
+        <pose frame=''>-2.43803 -1.86847 0.199947 0.000143 0.000128 9e-05</pose>
         <scale>1 1 1</scale>
         <link name='box'>
-          <pose frame=''>-1.82385 1.51023 0.25 0 -0 1e-06</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
+          <pose frame=''>-2.43803 -1.86847 0.199947 0.000143 0.000128 9e-05</pose>
+          <velocity>0.004298 -0.004151 -0.008388 0.020904 0.021423 8.4e-05</velocity>
+          <acceleration>0.313796 -0.319754 -1.62698 -1.53746 1.5693 3.14018</acceleration>
+          <wrench>0.313796 -0.319754 -1.62698 0 -0 0</wrench>
+        </link>
+        <link name='left_cover'>
+          <pose frame=''>-2.43805 -1.66347 0.199976 0.000142 0.000128 9.1e-05</pose>
+          <velocity>0.004284 -0.004166 -0.004094 0.020906 0.021417 7.8e-05</velocity>
+          <acceleration>0.314434 -0.320907 -1.29979 -1.5382 1.56952 3.14056</acceleration>
+          <wrench>0.314434 -0.320907 -1.29979 0 -0 0</wrench>
+        </link>
+        <link name='right_cover'>
+          <pose frame=''>-2.43801 -2.07347 0.199918 0.000142 0.000126 9e-05</pose>
+          <velocity>0.004329 -0.004172 -0.012694 0.020915 0.021477 8.5e-05</velocity>
+          <acceleration>0.313582 -0.320456 -1.95617 1.60341 1.57069 -0.001291</acceleration>
+          <wrench>0.313582 -0.320456 -1.95617 0 -0 0</wrench>
         </link>
       </model>
       <model name='arTAG_3'>
-        <pose frame=''>-1.91737 -2.24799 0.25 0 -0 1e-06</pose>
+        <pose frame=''>-2.08211 3.77603 0.200022 -0.000112 -2e-06 -3e-06</pose>
         <scale>1 1 1</scale>
         <link name='box'>
-          <pose frame=''>-1.91737 -2.24799 0.25 0 -0 1e-06</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
+          <pose frame=''>-2.08211 3.77603 0.200022 -0.000112 -2e-06 -3e-06</pose>
+          <velocity>7.9e-05 -0.000872 0.005168 0.004364 0.000363 3e-05</velocity>
+          <acceleration>0.015477 -0.403445 0.823702 2.01811 0.074664 0.003368</acceleration>
+          <wrench>0.015477 -0.403445 0.823702 0 -0 0</wrench>
+        </link>
+        <link name='left_cover'>
+          <pose frame=''>-2.08211 3.98103 0.2 -0.000112 -2e-06 -3e-06</pose>
+          <velocity>6.9e-05 -0.000872 0.006289 0.00438 0.000345 3.2e-05</velocity>
+          <acceleration>0.014594 -0.403196 1.25806 2.02025 0.074222 0.002741</acceleration>
+          <wrench>0.014594 -0.403196 1.25806 0 -0 0</wrench>
+        </link>
+        <link name='right_cover'>
+          <pose frame=''>-2.08211 3.57103 0.200045 -0.000112 -1e-06 -3e-06</pose>
+          <velocity>8.5e-05 -0.000868 0.004433 0.004387 0.000343 4.6e-05</velocity>
+          <acceleration>0.016516 -0.403007 0.435082 2.01999 0.074365 0.004531</acceleration>
+          <wrench>0.016516 -0.403007 0.435082 0 -0 0</wrench>
         </link>
       </model>
       <model name='asphalt_plane'>
@@ -1276,7 +1324,7 @@
       <heading_deg>0</heading_deg>
     </spherical_coordinates>
     <model name='arTAG_0'>
-      <pose frame=''>2.26157 -2.18453 0.2 0 -0 0</pose>
+      <pose frame=''>4.66088 -1.58272 0.2 0 -0 0</pose>
       <link name='box'>
         <pose frame=''>0 0 0 0 -0 0</pose>
         <collision name='collision'>
@@ -1327,9 +1375,103 @@
         </inertial>
         <kinematic>0</kinematic>
       </link>
+      <link name='right_cover'>
+        <pose frame=''>0 -0.205 0 0 -0 0</pose>
+        <collision name='collision'>
+          <geometry>
+            <box>
+              <size>0.4 0.01 0.4</size>
+            </box>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <box>
+              <size>0.4 0.01 0.4</size>
+            </box>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <inertial>
+          <inertia>
+            <ixx>1</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>1</iyy>
+            <iyz>0</iyz>
+            <izz>1</izz>
+          </inertia>
+          <mass>1</mass>
+        </inertial>
+        <kinematic>0</kinematic>
+      </link>
+      <link name='left_cover'>
+        <pose frame=''>0 0.205 0 0 -0 0</pose>
+        <collision name='collision'>
+          <geometry>
+            <box>
+              <size>0.4 0.01 0.4</size>
+            </box>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <box>
+              <size>0.4 0.01 0.4</size>
+            </box>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <inertial>
+          <inertia>
+            <ixx>1</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>1</iyy>
+            <iyz>0</iyz>
+            <izz>1</izz>
+          </inertia>
+          <mass>1</mass>
+        </inertial>
+        <kinematic>0</kinematic>
+      </link>
+      <joint name='box_left' type='fixed'>
+        <parent>box</parent>
+        <child>left_cover</child>
+      </joint>
+      <joint name='box_right' type='fixed'>
+        <parent>box</parent>
+        <child>right_cover</child>
+      </joint>
     </model>
     <model name='arTAG_1'>
-      <pose frame=''>2.6753 1.32861 0.2 0 -0 0</pose>
+      <pose frame=''>4.89429 3.05413 0.2 0 -0 0</pose>
       <link name='box'>
         <pose frame=''>0 0 0 0 -0 0</pose>
         <collision name='collision'>
@@ -1380,15 +1522,12 @@
         </inertial>
         <kinematic>0</kinematic>
       </link>
-    </model>
-    <model name='arTAG_3'>
-      <pose frame=''>-1.91737 -2.24799 0.2 0 -0 0</pose>
-      <link name='box'>
-        <pose frame=''>0 0 0 0 -0 0</pose>
+      <link name='right_cover'>
+        <pose frame=''>0 -0.205 0 0 -0 0</pose>
         <collision name='collision'>
           <geometry>
             <box>
-              <size>0.4 0.4 0.4</size>
+              <size>0.4 0.01 0.4</size>
             </box>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -1408,16 +1547,9 @@
         <visual name='visual'>
           <geometry>
             <box>
-              <size>0.4 0.4 0.4</size>
+              <size>0.4 0.01 0.4</size>
             </box>
           </geometry>
-          <material>
-            <script>
-              <uri>model://arTAG_3/materials/scripts</uri>
-              <uri>model://arTAG_3/materials/textures</uri>
-              <name>arTAG_3/Image</name>
-            </script>
-          </material>
         </visual>
         <self_collide>0</self_collide>
         <inertial>
@@ -1433,9 +1565,60 @@
         </inertial>
         <kinematic>0</kinematic>
       </link>
+      <link name='left_cover'>
+        <pose frame=''>0 0.205 0 0 -0 0</pose>
+        <collision name='collision'>
+          <geometry>
+            <box>
+              <size>0.4 0.01 0.4</size>
+            </box>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <box>
+              <size>0.4 0.01 0.4</size>
+            </box>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <inertial>
+          <inertia>
+            <ixx>1</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>1</iyy>
+            <iyz>0</iyz>
+            <izz>1</izz>
+          </inertia>
+          <mass>1</mass>
+        </inertial>
+        <kinematic>0</kinematic>
+      </link>
+      <joint name='box_left' type='fixed'>
+        <parent>box</parent>
+        <child>left_cover</child>
+      </joint>
+      <joint name='box_right' type='fixed'>
+        <parent>box</parent>
+        <child>right_cover</child>
+      </joint>
     </model>
     <model name='arTAG_2'>
-      <pose frame=''>-1.82385 1.51023 0.2 0 -0 0</pose>
+      <pose frame=''>-2.43804 -1.86841 0.2 0 -0 0</pose>
       <link name='box'>
         <pose frame=''>0 0 0 0 -0 0</pose>
         <collision name='collision'>
@@ -1486,6 +1669,247 @@
         </inertial>
         <kinematic>0</kinematic>
       </link>
+      <link name='right_cover'>
+        <pose frame=''>0 -0.205 0 0 -0 0</pose>
+        <collision name='collision'>
+          <geometry>
+            <box>
+              <size>0.4 0.01 0.4</size>
+            </box>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <box>
+              <size>0.4 0.01 0.4</size>
+            </box>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <inertial>
+          <inertia>
+            <ixx>1</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>1</iyy>
+            <iyz>0</iyz>
+            <izz>1</izz>
+          </inertia>
+          <mass>1</mass>
+        </inertial>
+        <kinematic>0</kinematic>
+      </link>
+      <link name='left_cover'>
+        <pose frame=''>0 0.205 0 0 -0 0</pose>
+        <collision name='collision'>
+          <geometry>
+            <box>
+              <size>0.4 0.01 0.4</size>
+            </box>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <box>
+              <size>0.4 0.01 0.4</size>
+            </box>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <inertial>
+          <inertia>
+            <ixx>1</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>1</iyy>
+            <iyz>0</iyz>
+            <izz>1</izz>
+          </inertia>
+          <mass>1</mass>
+        </inertial>
+        <kinematic>0</kinematic>
+      </link>
+      <joint name='box_left' type='fixed'>
+        <parent>box</parent>
+        <child>left_cover</child>
+      </joint>
+      <joint name='box_right' type='fixed'>
+        <parent>box</parent>
+        <child>right_cover</child>
+      </joint>
+    </model>
+    <model name='arTAG_3'>
+      <pose frame=''>-2.08211 3.77603 0.2 0 -0 0</pose>
+      <link name='box'>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <collision name='collision'>
+          <geometry>
+            <box>
+              <size>0.4 0.4 0.4</size>
+            </box>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <box>
+              <size>0.4 0.4 0.4</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://arTAG_3/materials/scripts</uri>
+              <uri>model://arTAG_3/materials/textures</uri>
+              <name>arTAG_3/Image</name>
+            </script>
+          </material>
+        </visual>
+        <self_collide>0</self_collide>
+        <inertial>
+          <inertia>
+            <ixx>1</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>1</iyy>
+            <iyz>0</iyz>
+            <izz>1</izz>
+          </inertia>
+          <mass>1</mass>
+        </inertial>
+        <kinematic>0</kinematic>
+      </link>
+      <link name='right_cover'>
+        <pose frame=''>0 -0.205 0 0 -0 0</pose>
+        <collision name='collision'>
+          <geometry>
+            <box>
+              <size>0.4 0.01 0.4</size>
+            </box>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <box>
+              <size>0.4 0.01 0.4</size>
+            </box>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <inertial>
+          <inertia>
+            <ixx>1</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>1</iyy>
+            <iyz>0</iyz>
+            <izz>1</izz>
+          </inertia>
+          <mass>1</mass>
+        </inertial>
+        <kinematic>0</kinematic>
+      </link>
+      <link name='left_cover'>
+        <pose frame=''>0 0.205 0 0 -0 0</pose>
+        <collision name='collision'>
+          <geometry>
+            <box>
+              <size>0.4 0.01 0.4</size>
+            </box>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <box>
+              <size>0.4 0.01 0.4</size>
+            </box>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <inertial>
+          <inertia>
+            <ixx>1</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>1</iyy>
+            <iyz>0</iyz>
+            <izz>1</izz>
+          </inertia>
+          <mass>1</mass>
+        </inertial>
+        <kinematic>0</kinematic>
+      </link>
+      <joint name='box_left' type='fixed'>
+        <parent>box</parent>
+        <child>left_cover</child>
+      </joint>
+      <joint name='box_right' type='fixed'>
+        <parent>box</parent>
+        <child>right_cover</child>
+      </joint>
     </model>
     <model name='wall'>
       <pose frame=''>0.161145 -0.263983 0 0 -0 0</pose>
