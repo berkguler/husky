@@ -28,6 +28,7 @@ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSI
   <arg name="laser_enabled" default="true"/>
   <arg name="kinect_enabled" default="false"/>
 
+
   <include file="$(find husky_gazebo)/launch/playpen_edit.launch" />
 
   <include file="$(find husky_gazebo)/launch/spawn_husky.launch">
@@ -35,4 +36,9 @@ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSI
     <arg name="kinect_enabled" value="$(arg kinect_enabled)"/>
   </include>
   <include file="$(find ar_track_alvar)/launch/husky_track.launch" />
+  <include file="$(find husky_viz)/launch/view_robot.launch" />
+  <include file="$(find husky_navigation)/launch/amcl_demo.launch" />
+
+
+
 </launch>

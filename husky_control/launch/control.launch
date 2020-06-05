@@ -5,8 +5,19 @@
   <arg name="simulation" default="$(optenv ROBOT_SIMULATION false)"/>
   <arg name="robot_namespace" default="$(optenv ROBOT_NAMESPACE robot)"/>
 
-  <arg name="config_extras"
-       default="$(eval optenv('HUSKY_CONFIG_EXTRAS', find('husky_control') + '/config/empty.yaml'))"/>
+  <!-- Robot Arm -->
+  <arg name="config_extras" default="$(eval optenv('HUSKY_CONFIG_EXTRAS', find('husky_control') + '/config/empty.yaml'))"/>
+  <!-- Load joint controller configurations from YAML file to parameter server -->  <!-- Load the controllers -->
+  <!-- Override the default control parameters, see config/empty.yaml for default. -->
+  <rosparam command="load" file="$(arg config_extras)" />
+  <rosparam command="load" file="$(find robot_arm_urdf)/config/joint_limits.yaml"/>
+  <rosparam command="load" file="$(find robot_arm_urdf)/config/control.yaml"/>
+  <rosparam command="load" file="$(find robot_arm_urdf)/config/fake_controllers.yaml"/>
+  <rosparam command="load" file="$(find robot_arm_urdf)/config/zeros.yaml"/>
+  <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher"/>
+  <node name="robot_controller_spawner" pkg="controller_manager" type="spawner" respawn="false" output="screen" args=" base_joint_position_controller shoulder_joint_position_controller elbow_joint_position_controller wrist_joint_position_controller"/>
+
+
 
   <arg name="laser_enabled" default="$(optenv HUSKY_LMS1XX_ENABLED false)"/>
   <arg name="kinect_enabled" default="$(optenv HUSKY_KINECT_ENABLED false)"/>
@@ -33,7 +44,7 @@
 
   <!-- Spawn controllers -->
   <node name="base_controller_spawner" pkg="controller_manager" type="spawner"
-        args="husky_joint_publisher husky_velocity_controller joint_state_controller base_joint_position_controller shoulder_joint_position_controller elbow_joint_position_controller wrist_joint_position_controller"/>
+        args="husky_joint_publisher husky_velocity_controller"/>
 
   <!-- Start EKF for localization -->
   <node pkg="robot_localization" type="ekf_localization_node" name="ekf_localization">
@@ -42,16 +53,13 @@
 
   <node pkg="interactive_marker_twist_server" type="marker_server" name="twist_marker_server" output="screen"/>
 
-  <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher">
-  
-  </node>
+  <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher"/>
 
   <node pkg="twist_mux" type="twist_mux" name="twist_mux">
     <rosparam command="load" file="$(find husky_control)/config/twist_mux.yaml" />
     <remap from="cmd_vel_out" to="husky_velocity_controller/cmd_vel"/>
   </node>
 
-  <!-- Override the default control parameters, see config/empty.yaml for default. -->
-  <rosparam command="load" file="$(arg config_extras)" />
+
 
 </launch>
