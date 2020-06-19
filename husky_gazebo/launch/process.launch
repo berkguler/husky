@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+
+<launch>
+
+  <arg name="amcl_enabled" default="true"/>
+  <arg name="vision_enabled" default="false"/>
+
+  <group if="$(arg vision_enabled)">
+    <include file="$(find ar_track_alvar)/launch/husky_track.launch" />
+    <include file="$(find datmo)/launch/datmo.launch" />
+  </group>  
+  <group if="$(arg amcl_enabled)">
+    <include file="$(find husky_navigation)/launch/amcl_demo.launch" />
+  </group>
+</launch>

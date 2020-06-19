@@ -283,8 +283,8 @@
   <link name="camera_link">
     <inertial>
       <origin rpy="0 0 0" xyz="0.014833 0.00040086 -0.007691"/>
-      <mass value="0.03589"/>
-      <inertia ixx="3.5126E-06" ixy="-4.8443E-09" ixz="-1.7271E-08" iyy="1.1161E-05" iyz="1.1342E-07" izz="1.0856E-05"/>
+      <mass value="0.204708304"/>
+      <inertia ixx="60066.963768030E-06" ixy="454.250194447E-06" ixz="1801.660490057E-06" iyy="56585.782610736E-06" iyz="14235.309071628E-06" izz="3719.968213372E-06"/>
     </inertial>
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
